@@ -1,13 +1,10 @@
-This CodeBook describes the data and variables in the Tidy Data version of the UCI Human Activity Report Data.  
-It begns with the data provided by UCI and proceeds through the final tidy data set.
+*This CodeBook describes the data and variables in the Tidy Data version of the UCI Human Activity Report Data.  
+It begns with the data provided by UCI and proceeds through the final tidy data set.*
 
-*UCI Data:*
-The UCI data came already divided to test set (30%) and a train set (70%) each with three key files plus inertial signals data
-which was extraneous to this project. Each file is described below.  The files do not all display well in Windows Notepad.  I 
-used Notepad++.
+UCI Data:
+The UCI data came already divided to test set (30%) and a train set (70%) each with three key files plus inertial signals data which was extraneous to this project. Each file is described below.  The files do not all display well in Windows Notepad.  I used Notepad++.
 
-subject_test.txt :This file contained 2948 observations specfyng which of the 30 test sujects (identified numerically 1-30) 
-produced the data in the corresponding activity (y_test) and measurement (x_test) files.  
+subject_test.txt : This file contained 2948 observations specfyng which of the 30 test sujects (identified numerically 1-30) produced the data in the corresponding activity (y_test) and measurement (x_test) files.  
 
 y_test.txt: This file contained 2948 observations specifying the activity (identified numerically 1-6) performed in each observation.
 
