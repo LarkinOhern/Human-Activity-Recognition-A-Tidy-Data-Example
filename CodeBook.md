@@ -1,7 +1,7 @@
 This CodeBook describes the data and variables in the Tidy Data version of the UCI Human Activity Report Data.  
 It begns with the data provided by UCI and proceeds through the final tidy data set.
 
-UCI Data:
+*UCI Data:*
 The UCI data came already divided to test set (30%) and a train set (70%) each with three key files plus inertial signals data
 which was extraneous to this project. Each file is described below.  The files do not all display well in Windows Notepad.  I 
 used Notepad++.
