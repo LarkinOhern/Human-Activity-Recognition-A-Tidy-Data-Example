@@ -8,24 +8,22 @@ The UCI data came already divided to test set (30%) and a train set (70%) each w
 
 **y_test.txt:** This file contained 2948 observations specifying the activity (identified numerically 1-6) performed in each observation.
 
-**X_test.txt:** This file contained 2948 observations of 562 variables capturng movement data from the accelerometer and gyroscope of a 
-Samsung smart phone worn by each participant during each activity. The raw inertial data were processed, filtered, and transformed
-to provide the measures in X\_test.  For more info on these features refer to the UCI Data features.txt and feature_info.txt.
+**X_test.txt:** This file contained 2948 observations of 562 variables capturng movement data from the accelerometer and gyroscope of a Samsung smart phone worn by each participant during each activity. The raw inertial data were processed, filtered, and transformed to provide the measures in X\_test.  For more info on these features refer to the UCI Data features.txt and feature_info.txt.
 
 The train set included three fles with the same characteristics representing the 7353 observations used as the training set.
 The files for the train set are:
 
-*subject_train.txt
-*y_train.txt
-*X_train.txt
+-subject_train.txt
+-y_train.txt
+-X_train.txt
 
-Internal Variables data sets:
+<h2>Internal Variables data sets:<h2> 
 
-xvarnames: This variable holds the names of the feature from the features.txt file and was used to apply descriptive names
-to the columns in the X\_test and X_train files.
+**xvarnames:** This variable holds the names of the feature from the features.txt file and was used to apply descriptive namesto the columns in the X\_test and X_train files.
 
 **test_subject:** I re-named the subject\_test/subject\_train column test_subject to indicate that its numbers ID participants 
-activity: I renamed the y\_train/y_test column activity to indicate that is numbers ID the 6 activties performed 
+
+**activity:** I renamed the y\_train/y_test column activity to indicate that is numbers ID the 6 activties performed 
 
 I renamed all of the measurements by applying the xvarnames variable to the column names of the X_test/X_train data sets to
 give descriptive names to the measurment variables.
