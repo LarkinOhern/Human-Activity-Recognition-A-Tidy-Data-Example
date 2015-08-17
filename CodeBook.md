@@ -17,7 +17,7 @@ The files for the train set are:
 -y_train.txt
 -X_train.txt
 
-<h2>Internal Variables data sets:<h2> 
+**_Internal Variables data sets:_**
 
 **xvarnames:** This variable holds the names of the feature from the features.txt file and was used to apply descriptive namesto the columns in the X\_test and X_train files.
 
